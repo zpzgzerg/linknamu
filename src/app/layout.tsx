@@ -9,7 +9,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body className="min-h-screen bg-gradient-to-br from-[#FEF9F1] via-[#FDEEDA] to-[#FADFC0] antialiased">
+        {children}
+      </body>
     </html>
   );
 }

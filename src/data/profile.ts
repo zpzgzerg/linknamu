@@ -13,11 +13,11 @@ export type Profile = {
 
 export const profile: Profile = {
   name: "김재용",
-  bio: "세계 최강 바이브 코더",
-  avatarUrl: "/avatar.svg",
+  bio: "풀스택 개발자 | 요즘에는 AI 개발에 관심이 많아요",
+  avatarUrl: "/profile.jpeg",
   links: [
-    { id: "github", label: "GitHub", url: "https://github.com/USERNAME" },
-    { id: "blog", label: "Blog", url: "https://example.com" },
-    { id: "instagram", label: "Instagram", url: "https://instagram.com/USERNAME" },
+    { id: "github", label: "🐙 GitHub", url: "https://github.com/zpzgzerg" },
+    { id: "blog", label: "✍️ Blog", url: "https://blog.naver.com/zpzgzerg" },
+    { id: "email", label: "📮 Email", url: "mailto:zpzgzerg@gmail.com" },
   ],
 };
